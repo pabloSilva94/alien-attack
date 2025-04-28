@@ -2,8 +2,8 @@ Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 
 # Carregar imagens
-$naveImagePath = "C:\Users\pablo.almeida\Pictures\ace.png"
-$naveUfoPath = "C:\Users\pablo.almeida\Pictures\ufo.png"
+$naveImagePath = "https://github.com/pabloSilva94/alien-attack/blob/main/ace.png"
+$naveUfoPath = "https://github.com/pabloSilva94/alien-attack/blob/main/ufo.png"
 $explosionImagePath = "C:\Users\pablo.almeida\Pictures\fire.png"
 try {
     $naveImage = [System.Drawing.Image]::FromFile($naveImagePath)
