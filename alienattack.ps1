@@ -4,7 +4,7 @@ Add-Type -AssemblyName System.Drawing
 # Carregar imagens
 $naveImagePath = "https://github.com/pabloSilva94/alien-attack/blob/main/ace.png"
 $naveUfoPath = "https://github.com/pabloSilva94/alien-attack/blob/main/ufo.png"
-$explosionImagePath = "C:\Users\pablo.almeida\Pictures\fire.png"
+$explosionImagePath = "https://github.com/pabloSilva94/alien-attack/blob/main/fire.png"
 try {
     $naveImage = [System.Drawing.Image]::FromFile($naveImagePath)
 } catch {
